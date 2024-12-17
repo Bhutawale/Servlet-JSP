@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<style type="text/css">
+	h1 { color: orange;}
+	td { font-size: 20px;  color: maroon;}
+	button { background:olive;font-size: 20px;}
+	.container{ text-align: center;}
+	.center{ margin-left: auto;margin-right: auto;}
+</style>
+</head>
+
+<body>
+<div class="container">
+<h1>Registration Form</h1>
+
+<form action=form method="post">
+	<table class="center">
+		<tr>
+			<td>First Name: </td>
+			<td><input type="text" name="firstname" placeholder="Enter here"></td>
+		</tr>
+		<tr>
+			<td>Middle Name: </td>
+			<td><input type="text" name="middlename" placeholder="Enter here"></td>
+		</tr>
+		<tr>
+			<td>Last Name: </td>
+			<td><input type="text" name="lastname" placeholder="Enter here"></td>
+		</tr>
+		<tr>
+			<td>Enter Email: </td>
+			<td><input type="email" name="email" placeholder="Enter here"></td>
+		</tr>
+		<tr>
+			<td>Enter Contact No.</td>
+			<td><input type="text" name="contact" placeholder="Enter Contact Number"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">Enter Marks: </td>
+		</tr>
+		<tr>
+			<td>Subject 1 Marks: </td>
+			<td><input type="text" name="sub1" placeholder="sub1 Marks"></td>
+		</tr>
+		<tr>
+			<td>Subject 2 Marks: </td>
+			<td><input type="text" name="sub2" placeholder="sub2 Marks"></td>
+		</tr><tr>
+			<td>Subject 3 Marks: </td>
+			<td><input type="text" name="sub3" placeholder="sub3 Marks"></td>
+		</tr><tr>
+			<td>Subject 4 Marks: </td>
+			<td><input type="text" name="sub4" placeholder="sub4 Marks"></td>
+		</tr><tr>
+			<td>Subject 5 Marks: </td>
+			<td><input type="text" name="sub5" placeholder="sub5 Marks"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="checkbox" name="condition" value="checked">Filled all the details correctly</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><button type="submit" name="submit">Calculate Percentage</button></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><button type="reset" name="reset">Reset Values</button></td>
+		</tr>
+	</table>
+</form>
+</div>
+</body>
+</html>

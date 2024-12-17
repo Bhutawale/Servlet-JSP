@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>My Form</title>
+</head>
+<body>
+<div class="container">
+<h1 align="center">This is My Form</h1>
+<form action="RegisterServlet" method="post">
+
+	<table align="center">
+		<tr>
+			<td>Enter your Name: </td>
+			<td><input type="text" name="username" placeholder="Enter here.."></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Password: </td>
+			<td><input type="password" name="userpassword" placeholder="Enter here.."></td>
+		</tr>
+		
+		<tr>
+			<td>Enter Email: </td>
+			<td><input type="email" name="useremail" placeholder="Enter here.."></td>
+		</tr>
+		
+		<tr>
+			<td>Gender:</td>
+			<td>
+				<input type="radio" name="gender" value="Male">Male 
+				<br>
+				<input type="radio" name="gender" value="Female">Female
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Course: </td>
+			<td>
+				<select name="course">
+					<option value="Java">Java</option>
+					<option value="C">C</option>
+					<option value="CPP">CPP</option>
+					<option value="Hibernate">Hibernate</option>
+					<option value="JSP">JSP</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><input type="checkbox" value="checked" name="condition">
+			Information is Correct</td>
+			
+		</tr>
+		
+		<tr>
+			<td>
+				<input type="submit" name="Submit" value="Submit">
+			</td>
+			<td>
+				<input type="reset" name="Reset" value="Reset">
+			</td>
+		</tr>
+	
+	</table>
+
+
+</form> 
+</div>
+</body>
+</html>
